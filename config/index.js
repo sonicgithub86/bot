@@ -1,9 +1,9 @@
 require('dotenv').config()
-const db = require('./database')
+const db = require('../db')
 
 const { NODE_ENV = 'development' } = process.env
 
 module.exports = {
-  host: '127.0.0.1',
+  host: 'localhost',
   db: db[NODE_ENV],
 }

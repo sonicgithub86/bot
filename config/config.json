@@ -1,23 +1,23 @@
 {
   "development": {
-    "username": "root",
-    "password": "example",
+    "username": "postgres",
+    "password": "1",
     "database": "tradebot",
-    "host": "127.0.0.1",
+    "host": "localhost",
     "dialect": "postgres"
   },
   "test": {
-    "username": "root",
-    "password": "example",
+    "username": "postgres",
+    "password": "1",
     "database": "tradebot",
-    "host": "127.0.0.1",
+    "host": "localhost",
     "dialect": "postgres"
   },
   "production": {
-    "username": "root",
-    "password": "example",
+    "username": "postgres",
+    "password": "1",
     "database": "tradebot",
-    "host": "127.0.0.1",
+    "host": "localhost",
     "dialect": "postgres"
   }
 }

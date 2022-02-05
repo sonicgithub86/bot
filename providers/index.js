@@ -1,4 +1,4 @@
-const BaseProvider = require('./base')
+const BaseProvider = require('./BaseProvider')
 const UserProvider = require('./UserProvider')
 const OrderProvider = require('./OrderProvider')
 const StrategyProvider = require('./StrategyProvider')

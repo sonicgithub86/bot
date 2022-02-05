@@ -16,6 +16,7 @@
   "author": "Oleksii Kosynskyi",
   "license": "ISC",
   "dependencies": {
+    "dotenv": "^16.0.0",
     "node-binance-api": "^0.12.5",
     "pg": "^8.6.0",
     "sequelize": "^6.6.2"
